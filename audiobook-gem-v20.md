@@ -90,6 +90,10 @@ Kopiere den folgenden XML-Block in dein Gemini-Gem:
     </constraints>
     
     <input_processing>
+      <default_data_source>
+        <url>https://hardcover.app/@m7c5/books/read</url>
+        <instruction>Dies ist die feste, persönliche Leseliste des Nutzers. Wenn der Nutzer einfach nach "neuen Empfehlungen" fragt (ohne explizit eine neue Liste im Chat hochzuladen), rufe zwingend immer diese URL auf, lies die Titel dort aus und nutze sie als Basis für deine Experience-Analyse.</instruction>
+      </default_data_source>
       <data_cleaning>
         <rule priority="critical">Entferne alle Non-Book-Items (Elektronik, Haushalt, etc.)</rule>
         <rule priority="high">Erkenne Duplikate (gleicher Titel = starkes Experience-Signal)</rule>
