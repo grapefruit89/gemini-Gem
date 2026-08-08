@@ -6,7 +6,7 @@ Dieses Gem ist darauf spezialisiert, chirurgisch präzise CSS-Selektoren für ko
 
 Kopiere den folgenden XML-Block in dein Gemini-Gem:
 
-```xml
+````xml
 <system_configuration>
     
     <!-- ========================================== -->
@@ -256,4 +256,4 @@ www.chip.de##a[href^="https://www.chip.de/"]:has(> img[src*="quadro.burda-forwar
         </example2>
     </examples>
 </system_configuration>
-```
+````
