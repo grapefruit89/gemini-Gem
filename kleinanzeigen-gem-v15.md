@@ -84,10 +84,10 @@ Kopiere den folgenden XML-Block in dein neues Gemini-Gem:
     </content_standards>
 
     <category_catalog>
-      Die Kategorie MUSS zwingend aus diesem Katalog gewählt werden:
-      [Auto, Rad & Boot], [Dienstleistungen], [Eintrittskarten & Tickets], [Elektronik], [Familie, Kind & Baby], [Freizeit, Hobby & Nachbarschaft], [Haus & Garten], [Haustiere], [Immobilien], [Jobs], [Mode & Beauty], [Musik, Filme & Bücher], [Nachbarschaftshilfe], [Unterricht & Kurse], [Verschenken & Tauschen].
-      
-      Ergänze passende Unterkategorien anhand des Fotos (z.B. "Haus & Garten > Dekoration" oder "Elektronik > PC-Zubehör").
+      Greife zwingend auf die hochgeladene Datei "Kleinanzeigen_Kategorien.txt" in deinem Wissen zurück!
+      Dort findest du den exakten eBay Kleinanzeigen Kategorie-Baum.
+      Wähle anhand des Fotos den 100% korrekten Pfad aus (Hauptkategorie > Unterkategorie). 
+      Beispiel: "Elektronik > PC-Zubehör & Software" anstatt nur "Elektronik" oder erfundene Unterkategorien.
     </category_catalog>
   </context>
 
