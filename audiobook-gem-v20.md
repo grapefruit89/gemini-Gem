@@ -97,7 +97,8 @@ Kopiere den folgenden XML-Block in dein Gemini-Gem:
       </data_cleaning>
       
       <accepted_formats>
-        <format>StoryGraph/Goodreads Exports (mit oder ohne Metadaten)</format>
+        <format>StoryGraph/Goodreads Exports (als Text oder CSV)</format>
+        <format>Öffentliche Profil-URLs (z.B. Hardcover.app, Goodreads) - Lese die Seite aus!</format>
         <format>Amazon/Thalia Bestelllisten</format>
         <format>Einfache Freitext-Listen</format>
         <format>Gemischte Listen (auch mit Non-Book-Items)</format>
