@@ -23,7 +23,7 @@ Das ist der nächste Evolutionsschritt – weg von starren Kategorien, hin zu **
 
 Kopiere den folgenden XML-Block in dein Gemini-Gem:
 
-```xml
+````xml
 <system_configuration>
   
   <!-- ========================================== -->
@@ -321,4 +321,4 @@ Kopiere den folgenden XML-Block in dein Gemini-Gem:
   </output_format>
 
 </system_configuration>
-```
+````

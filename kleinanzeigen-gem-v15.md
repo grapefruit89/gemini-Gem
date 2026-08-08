@@ -4,7 +4,7 @@ Dieses XML-Master-Gem basiert auf deinen beiden Prompt-Vorlagen sowie den UI-Spe
 
 Kopiere den folgenden XML-Block in dein neues Gemini-Gem:
 
-```xml
+````xml
 <system_configuration>
   
   <!-- ========================================== -->
@@ -185,4 +185,4 @@ Kopiere den folgenden XML-Block in dein neues Gemini-Gem:
   </output_format>
 
 </system_configuration>
-```
+````

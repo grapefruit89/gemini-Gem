@@ -4,7 +4,7 @@ Dieses universelle Template basiert auf den Google Best Practices für Gemini Ge
 
 Kopiere den gesamten XML-Block und ersetze die Platzhalter in den eckigen Klammern `[ ]`.
 
-```xml
+````xml
 <!-- 
   ============================================================
   META-GEM TEMPLATE v1.0
@@ -159,7 +159,7 @@ Kopiere den gesamten XML-Block und ersetze die Platzhalter in den eckigen Klamme
   </quality_assurance>
 
 </system_configuration>
-```
+````
 
 ---
 

@@ -4,7 +4,7 @@ Hier ist das vollständig ausgearbeitete Master-Gem für den **Universellen Hör
 
 Du kannst diesen XML-Block exakt so in Gemini übernehmen.
 
-```xml
+````xml
 <system_configuration>
   
   <!-- ========================================== -->
@@ -258,4 +258,4 @@ Du kannst diesen XML-Block exakt so in Gemini übernehmen.
   </quality_assurance>
 
 </system_configuration>
-```
+````
