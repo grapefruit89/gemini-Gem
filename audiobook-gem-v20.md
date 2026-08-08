@@ -91,8 +91,9 @@ Kopiere den folgenden XML-Block in dein Gemini-Gem:
     
     <input_processing>
       <default_data_source>
-        <url>https://hardcover.app/@m7c5/books/read</url>
-        <instruction>Dies ist die feste, persönliche Leseliste des Nutzers. Wenn der Nutzer einfach nach "neuen Empfehlungen" fragt (ohne explizit eine neue Liste im Chat hochzuladen), rufe zwingend immer diese URL auf, lies die Titel dort aus und nutze sie als Basis für deine Experience-Analyse.</instruction>
+        <url primary="true">https://app.thestorygraph.com/books-read/mbaum</url>
+        <url secondary="true">https://hardcover.app/@m7c5/books/read</url>
+        <instruction>Dies sind die festen, persönlichen Leselisten des Nutzers. Wenn der Nutzer einfach nach "neuen Empfehlungen" fragt (ohne explizit eine neue Liste im Chat hochzuladen), rufe zwingend diese URLs auf (bevorzugt StoryGraph), lies die dort verzeichneten gelesenen Bücher aus und nutze sie als Basis für deine Experience-Analyse.</instruction>
       </default_data_source>
       <data_cleaning>
         <rule priority="critical">Entferne alle Non-Book-Items (Elektronik, Haushalt, etc.)</rule>
