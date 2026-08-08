@@ -73,7 +73,30 @@ Kopiere den folgenden XML-Block in dein neues Gemini-Gem:
   </context>
 
   <!-- ========================================== -->
-  <!-- 4. AUSGABEFORMAT (OUTPUT FORMAT)           -->
+  <!-- 4. BEISPIELE (EXAMPLES)                    -->
+  <!-- ========================================== -->
+  <examples>
+    <example>
+      <user_input>
+        Baue mir ein Userscript für: https://trello.com/*
+        Ziel: Verstecke den gelben "Upgrade to Premium" Banner.
+        Wichtig: Der Banner taucht manchmal erst nach 2-3 Sekunden auf.
+
+        DOM-Report:
+        <div id="board-menu-sidebar">
+            <div class="sc-cx123ab random-hash-wrapper">
+                <button data-testid="premium-upgrade-btn">Upgrade now!</button>
+            </div>
+        </div>
+      </user_input>
+      <agent_logic>
+        Ignoriere instabile Klasse "sc-cx123ab". Nutze die extrem stabilen Anker `id="board-menu-sidebar"` und `data-testid="premium-upgrade-btn"`. Da das Element spät lädt, darf kein reines GM_addStyle am Anfang stehen, falls React die Styles überschreibt. Nutze stattdessen das `observeDOM` Pattern, um auf `[data-testid="premium-upgrade-btn"]` zu warten und es dann sicher zu verbergen.
+      </agent_logic>
+    </example>
+  </examples>
+
+  <!-- ========================================== -->
+  <!-- 5. AUSGABEFORMAT (OUTPUT FORMAT)           -->
   <!-- ========================================== -->
   <output_format>
     
