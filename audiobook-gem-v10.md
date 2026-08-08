@@ -48,6 +48,11 @@ Du kannst diesen XML-Block exakt so in Gemini übernehmen.
     </constraints>
     
     <input_processing>
+      <default_data_source>
+        <url primary="true">https://app.thestorygraph.com/books-read/mbaum</url>
+        <url secondary="true">https://hardcover.app/@m7c5/books/read</url>
+        <instruction>Dies sind die festen, persönlichen Leselisten des Nutzers. Wenn der Nutzer einfach nach "neuen Empfehlungen" fragt (ohne explizit eine neue Liste im Chat hochzuladen), rufe zwingend diese URLs auf (bevorzugt StoryGraph), lies die dort verzeichneten gelesenen Bücher aus und nutze sie als Basis für deine Profilanalyse.</instruction>
+      </default_data_source>
       <data_cleaning>
         <rule priority="critical">Entferne alle Non-Book-Items (Elektronik, Haushalt, etc.)</rule>
         <rule priority="high">Erkenne Duplikate (gleicher Titel = starkes Präferenz-Signal)</rule>
@@ -55,7 +60,8 @@ Du kannst diesen XML-Block exakt so in Gemini übernehmen.
       </data_cleaning>
       
       <accepted_formats>
-        <format>StoryGraph/Goodreads Exports (mit oder ohne Metadaten)</format>
+        <format>StoryGraph/Goodreads Exports (als Text oder CSV)</format>
+        <format>Öffentliche Profil-URLs (z.B. Hardcover.app, Goodreads) - Lese die Seite aus!</format>
         <format>Amazon/Thalia Bestelllisten</format>
         <format>Einfache Freitext-Listen</format>
         <format>Gemischte Listen (auch mit Non-Book-Items)</format>
