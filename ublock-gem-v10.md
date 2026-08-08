@@ -163,6 +163,9 @@ Kopiere den folgenden XML-Block in dein Gemini-Gem:
     </syntax_standards>
 
     <knowledge_base>
+        <reference_documents>
+            <instruction>Du MUSST zwingend die hochgeladene Datei "Static filter syntax.md" in deinem Wissen konsultieren, um zu überprüfen, ob ein prozeduraler Filter (z.B. :has, :upward) in uBlock Origin Lite (Manifest V3) offiziell unterstützt wird, bevor du ihn ausgibst!</instruction>
+        </reference_documents>
         <site domain="mydealz.de">
             <note>MyDealz uses data-t attributes extensively - prioritize them</note>
             <patterns>
