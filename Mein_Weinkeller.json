@@ -1,0 +1,69 @@
+[
+  {
+    "wine_name": "Michel Maury Selection Reserve",
+    "grape_variety": ["Cabernet Sauvignon"],
+    "region": "France",
+    "wine_type": "Red",
+    "taste_profile": {
+      "tannin": "Medium",
+      "acidity": "Medium",
+      "fruit": "Dark",
+      "body": "Full"
+    },
+    "status": "liked"
+  },
+  {
+    "wine_name": "Mucho Más Tinto",
+    "grape_variety": ["Tempranillo", "Syrah"],
+    "region": "Spain",
+    "wine_type": "Red",
+    "taste_profile": {
+      "tannin": "Low",
+      "acidity": "Low",
+      "fruit": "Jammy",
+      "body": "Medium-Full",
+      "sweetness": "Semi-Sweet"
+    },
+    "status": "liked"
+  },
+  {
+    "wine_name": "Freixenet Mederaño Tinto",
+    "grape_variety": ["Blend"],
+    "region": "Spain",
+    "wine_type": "Red",
+    "taste_profile": {
+      "tannin": "Low",
+      "acidity": "Low",
+      "fruit": "Red",
+      "body": "Medium"
+    },
+    "status": "liked"
+  },
+  {
+    "wine_name": "Doppio Passo Primitivo",
+    "grape_variety": ["Primitivo"],
+    "region": "Puglia, Italy",
+    "wine_type": "Red",
+    "taste_profile": {
+      "tannin": "Low",
+      "acidity": "Low",
+      "fruit": "Jammy, Plum",
+      "body": "Full",
+      "sweetness": "Semi-Sweet"
+    },
+    "status": "liked"
+  },
+  {
+    "wine_name": "Freixenet Mia Tinto",
+    "grape_variety": ["Tempranillo Blend"],
+    "region": "Spain",
+    "wine_type": "Red",
+    "taste_profile": {
+      "tannin": "Low",
+      "acidity": "Low",
+      "fruit": "Fruity",
+      "body": "Medium"
+    },
+    "status": "liked"
+  }
+]
